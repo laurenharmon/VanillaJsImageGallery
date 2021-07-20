@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1600px;
+    padding: 50px 20px;
+    margin: 0 auto;
+}
+
+.galleryImage {
+    max-width: 100%;
+    border-radius: 10px;
+    position: relative;
+    transition: transform 250ms;
+    cursor: pointer;
+}
