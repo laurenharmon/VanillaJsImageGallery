@@ -1,11 +1,12 @@
 body {
     font-family: sans-serif;
+    background-color:lightgoldenrodyellow;
 }
 
 .container {
     max-width: 1600px;
-    padding: 50px 20px;
-    margin: 0 auto;
+    padding: 0.5em;
+    margin: 1em;
 }
 
 img {
@@ -26,6 +27,8 @@ img {
     position: relative;
     transition: transform 250ms;
     cursor: pointer;
+    align-content: center;
+    justify-self: center;
 }
 
 .galleryImage:hover {
